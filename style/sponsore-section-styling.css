@@ -1,0 +1,55 @@
+.sponsore-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.sponsore-section-first-child {
+  width: 73.125rem;
+  height: 6.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 4.375rem auto 6.25rem auto;
+}
+
+@media screen and (max-width: 576px) {
+  .sponsore-section {
+    width: 100%;
+  }
+  .sponsore-section-first-child {
+    width: 28.75rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .sponsore-section-img-div {
+    margin: 0rem 0.938rem;
+  }
+  #alibaba-logo-div {
+    margin-left: 0rem;
+  }
+  #ebay-logo-div {
+    margin-right: 0rem;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .sponsore-section {
+    width: 100%;
+  }
+  .sponsore-section-first-child {
+    width: 38.375rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .sponsore-section-img-div {
+    margin: 0rem 0.938rem;
+  }
+  #alibaba-logo-div {
+    margin-left: 0rem;
+  }
+  #ebay-logo-div {
+    margin-right: 0rem;
+  }
+}

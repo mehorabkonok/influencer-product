@@ -1,0 +1,140 @@
+.featured-products-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.featured-products-section-first-child {
+  width: 69.375rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 6.25rem auto 6.25rem auto;
+}
+
+.featured-products-img-div {
+  height: 16.875rem;
+  width: 25rem;
+}
+
+.featured-products-info-div {
+  height: 16.875rem;
+  width: 38.125rem;
+}
+
+.featured-products-info-div > h2 {
+  color: rgb(10, 8, 38);
+  font-family: Poppins;
+  font-size: 2.375rem;
+  font-weight: 700;
+  margin: 1.5rem auto 1rem auto;
+}
+
+.featured-products-info-div > p {
+  color: rgb(108, 108, 108);
+  font-family: Poppins;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.join-now-btn {
+  width: 9.688rem;
+  height: 2.75rem;
+  padding: 0.625rem 1.5rem 0.625rem 1.5rem;
+  margin: 1rem 0rem 0rem 0rem;
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  background: rgb(224, 44, 109);
+  border: none;
+}
+
+@media screen and (max-width: 576px) {
+  .featured-products-section {
+    width: 100%;
+  }
+
+  .featured-products-section-first-child {
+    width: 28.75rem;
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .featured-products-info-div {
+    width: 28.75rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .featured-products-info-div > h2 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    text-align: center;
+  }
+  .featured-products-info-div > p {
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+  }
+  .join-now-btn {
+    margin: 2.25rem auto 1.875rem auto;
+  }
+
+  .featured-products-img-div {
+    width: 28.75rem;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .featured-products-img-div > img {
+    margin: auto;
+    width: 28.75rem;
+    height: 18.75rem;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .featured-products-section {
+    width: 100%;
+    height: auto;
+  }
+
+  .featured-products-section-first-child {
+    width: 38.375rem;
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .featured-products-info-div {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .featured-products-info-div > p {
+    margin: 0rem 1rem;
+  }
+
+  .featured-products-img-div {
+    width: 38.375rem;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .featured-products-img-div > img {
+    height: 20.625rem;
+    width: 30.938rem;
+  }
+
+  .join-now-btn {
+    margin: 1.5rem 0rem 1.5rem 0rem;
+  }
+}

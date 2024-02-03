@@ -1,0 +1,128 @@
+/* Header stylings starts here*/
+.header-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-section-first-child {
+  width: 73.125rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5.438rem 7.5rem 3.125rem 7.5rem;
+}
+.bar-menu-div,
+.shopping-cart-div {
+  display: none;
+}
+
+.site-title-div {
+  display: flex;
+  align-items: center;
+}
+
+.site-title {
+  color: rgb(58, 58, 58);
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.nav-element-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28.938rem;
+  height: 2.25rem;
+}
+
+.nav-ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 28.938rem;
+  height: 2.25rem;
+  color: rgb(58, 58, 58);
+  font-family: Poppins;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 576px) {
+  .header-section-first-child {
+    margin: 1.875 auto 1.5rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-element-div {
+    display: none;
+  }
+  .bar-menu-div,
+  .shopping-cart-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bar-menu-div > i,
+  .shopping-cart-div > i {
+    font-size: 2rem;
+  }
+
+  .responsive-menu {
+    width: 28.75rem;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .header-section {
+    width: 100%;
+  }
+  .header-section-first-child {
+    width: 38.375rem;
+    margin: 1.875rem auto 1.5rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-element-div {
+    display: none;
+  }
+
+  .site-title {
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  .bar-menu-div,
+  .shopping-cart-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bar-menu-div > i,
+  .shopping-cart-div > i {
+    font-size: 2rem;
+  }
+
+  .responsive-menu {
+    width: 38.375rem;
+    display: flex;
+    justify-content: space-between;
+  }
+}

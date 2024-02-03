@@ -1,0 +1,190 @@
+.popular-collection-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.popular-collection-div-first-child {
+  width: 65.438rem;
+  height: auto;
+}
+
+.popular-collection-title-div {
+  display: flex;
+  justify-content: center;
+}
+
+.popular-collection-title {
+  color: rgb(58, 58, 58);
+  font-family: Poppins;
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 4.375rem;
+}
+
+.popular-collection-card-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  width: 20.5rem;
+  height: 29.75rem;
+  border-radius: 0.313rem;
+  box-shadow: 0rem 0rem 2.5rem 0rem rgba(0, 0, 0, 0.15);
+  background: rgb(255, 255, 255);
+  padding: 0rem 0rem 0rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.card-img-div {
+  margin: 1rem auto 1rem auto;
+}
+
+.card-info-div {
+  width: 18.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.card-info-div > h2 {
+  margin: 0rem auto 0.5rem 0rem;
+  color: rgb(24, 25, 31);
+  font-family: Poppins;
+  font-size: 1.75rem;
+  font-weight: 500;
+}
+
+.card-info-div > h3 {
+  margin: 0rem auto 0.5rem 0rem;
+  color: rgba(0, 0, 0, 0.87);
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.card-info-div > p {
+  margin: 0.5rem auto auto 0rem;
+  color: rgb(120, 120, 133);
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.star-icon-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.star-icon-div > i {
+  color: rgb(251, 130, 0);
+}
+
+.star-icon-div > p {
+  color: rgb(94, 99, 102);
+  font-family: Roboto;
+  font-size: 0.875rem;
+  font-weight: 700;
+
+  margin: 0rem 0rem 0rem 0.5rem;
+}
+
+.popular-collection-see-more-div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.popular-collection-see-more-div > p {
+  color: rgba(224, 44, 109, 0.87);
+  font-family: Poppins;
+  font-size: 1rem;
+  font-weight: 700;
+
+  margin: 1rem 1.5rem 0rem 0rem;
+}
+
+@media screen and (max-width: 576px) {
+  .popular-collection-div {
+    width: 100%;
+  }
+
+  .popular-collection-card-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card {
+    width: 28.75rem;
+    height: auto;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+  }
+
+  .card-img-div {
+    margin: 1rem auto 1rem auto;
+  }
+
+  .card-img-div > img {
+    height: 21.875rem;
+    width: 25rem;
+  }
+
+  .card-info-div {
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .card-info-div > h2 {
+    margin: 0.5rem auto 0.5rem 0rem;
+    font-size: 1.75rem;
+    font-weight: 700;
+  }
+
+  .card-info-div > h3 {
+    margin: 0rem auto 0.5rem 0rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  .card-info-div > p {
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin: 0.5rem auto 1.688rem 0rem;
+  }
+
+  .star-icon-div > p {
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin: 0rem 0rem 0rem 0.5rem;
+  }
+
+  .popular-collection-see-more-div > p {
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 1rem 3rem 1rem auto;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .popular-collection-div {
+    width: 100%;
+  }
+
+  .popular-collection-card-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .popular-collection-see-more-div > p {
+    margin: 1.5rem 2.75rem 1rem 0rem;
+  }
+}
